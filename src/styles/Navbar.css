@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  padding-right: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  color: orange;
+}
+
+.logo > span {
+  color: rgb(96, 152, 255);
+}
+
+.searchbar {
+  border-radius: 15px;
+  padding: 5px 15px;
+  border: 1px solid lightgray;
+}

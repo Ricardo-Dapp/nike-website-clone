@@ -1,0 +1,33 @@
+.main-container {
+  display: flex;
+  margin: 100px 100px;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 15px;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: orange;
+  padding: 15px 53px;
+}
+
+.text-container {
+  max-width: 500px;
+}
